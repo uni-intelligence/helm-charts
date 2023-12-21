@@ -28,6 +28,15 @@ env: {}
 # - name: example-name
 #   value: example-value
 
+extraEnvs: []
+# - name: POD_NAME
+#   valueFrom:
+#     fieldRef:
+#       fieldPath: metadata.name
+extraContainers: []
+# - name: test
+#   image: nginx
+
 persistence:
   ## Enable storage persistence using Persistent Volume Claims.
   ##
